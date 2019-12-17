@@ -13,6 +13,7 @@
 <script src="ex6-10.js"></script>
 <script src="ex6-11.js"></script>
 <script src="ex7-1.js"></script>
+<script src="ex07-3.js"></script>
 </head>
 <body>
 <h1>イベントハンドラの練習</h1>
@@ -68,11 +69,27 @@ onclick="imgchange2();">
 onclick="imgchange611();setTimeout('back()',3000)">
 <img src='./image2/neko.jpg'id="cat" alt="cat"></div>
 
-<!--保留
+
 <h1>テキスト入力練習71</h1>
 <input type="button" value="あいさつ" onclick="sayhello71()">
-<p>誰？<input type="text" id="who"></p>
--->
+<p>誰？<input type="text" id="who71"></p>
+
+<!--7-3使用部位-->
+<h1>足し算</h1>
+<p>
+<input type="text" id="input1">+<input type="text" id="input2">
+<input type="button" value="計算" onclick="add();">
+</p>
+
+<h1>ボディマス指（BMI）</h1>
+<p>
+体重(kg)<input type="text" id="weight">
+</p>
+<p>
+身長(m)<input type="text" id="height">
+<input type="button" value="計算" onclick="BMI();">
+</p>
+
 
 </body>
 </html>
