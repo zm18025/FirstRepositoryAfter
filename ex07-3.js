@@ -29,7 +29,7 @@ function result(){
     alert("前肥満");
 
     } else if (Body <= 34.99) {
-    alert(Body + "肥満（１）");
+    alert("肥満（１）");
 
     } else if (Body <= 39.99) {
     alert("肥満（２）");
